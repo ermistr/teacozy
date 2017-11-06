@@ -96,12 +96,14 @@ nav li {
   padding: 10px 5px;
 }
 /***Contact Info***/
+#contact {
+  height: 200px;
+}
 h5 a {
   text-decoration: none;
 }
 /***Footer***/
 footer {
-  height: 500px;
   padding-left: 20px;
   text-align: left;
 }
