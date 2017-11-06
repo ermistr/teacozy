@@ -2,10 +2,10 @@ a {
   color: seashell;
 }
 body {
+  background-color: black;
+  color: seashell;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
-  color: seashell;
-  background-color: black;
   margin: 0;
   opacity: 0.9;
   text-align: center;
@@ -15,18 +15,19 @@ h2, h3, h4 {
   padding: 10px 10px;
 }
 .flex {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+
 }
 /***Header***/
 header {
   background-color: black;
-  height: 69px;
-  width: 100%;
-  position: fixed;
   border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
   z-index: 10;
 }
 .logo img{
@@ -34,10 +35,10 @@ header {
   padding-left: 10px;
 }
 nav {
-  text-align: right;
   flex-grow: 1;
+  text-align: right;
 }
-nav ul, li {
+nav li {
   display: inline-block;
   padding: 10px 20px;
 }
@@ -46,20 +47,21 @@ nav ul, li {
   margin: auto;
   padding-top: 70px;
 }
+/***Mission Section***/
 #mission {
   background-image: url(../images/missionbackground.jpg);
+  height: 700px;
   margin: auto;
   width: 1200px;
-  height: 700px;
 }
 .headline {
   background-color: black;
   width: 100%;
 }
+/***Featured Items***/
 #feature {
-  padding-top: 70px;
   padding-bottom: 70px;
-
+  padding-top: 70px;
 }
 .items {
   margin: auto;
@@ -75,11 +77,12 @@ nav ul, li {
   height: 200px;
   width: 300px;
 }
+/***Store Locations***/
 #locations {
   background-image: url(../images/locationbackground.jpg);
+  height: 500px;
   margin: auto;
   padding-top: 70px;
-  height: 500px;
   width: 1200px;
 }
 .address {
@@ -92,12 +95,13 @@ nav ul, li {
   opacity: 1;
   padding: 10px 5px;
 }
-
+/***Contact Info***/
 h5 a {
   text-decoration: none;
 }
+/***Footer***/
 footer {
   height: 500px;
-  text-align: left;
   padding-left: 20px;
+  text-align: left;
 }
